@@ -18,11 +18,18 @@ body {
     display: flex;
     justify-content: space-between;
     height: 100px;
-    background-color: rgb(243, 236, 227);
 }
 
 .nav-title {
     text-align: center;
+}
+
+.kill {
+    color: red;
+}
+
+.born {
+    color: #ff42af;
 }
 
 .logo {
@@ -83,3 +90,241 @@ img {
     align-items: center;
     padding-left: 10px;
 }
+
+
+/* banner section  */
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.play {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-title {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.para {
+    color: #534C64;
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.banner-img img {
+    width: 500px;
+    height: 400px;
+
+}
+
+.btn-part .sign-in {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FF42A5;
+    border: none;
+    margin-right: 20px;
+}
+
+.go {
+    background: #4EC5F7;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    border: none;
+}
+
+/* gamer section */
+.gamer {
+    width: 100%px;
+    height: 600px;
+    margin: 50px 100px;
+
+}
+
+.gamer-title {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.gamer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.gamer-img img {
+    width: 600px;
+    height: 400px;
+
+}
+
+.gamer-content {
+    text-align: right;
+}
+
+.gamer-description {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.know-more {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FF42A5;
+    border: none;
+    margin-bottom: 20px;
+
+}
+
+.gamer-header span {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+    /* 187.5% */
+}
+
+.gamer-header {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+/* responsive section  */
+/* mobile  */
+
+@media screen and (max-width:576px) {
+
+    .nav-container,
+    .menus {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .logo {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .banner-img img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .banner-container {
+        margin-top: 150px;
+        padding-left: 50px;
+    }
+
+    .banner-content {
+        margin-top: 25px;
+    }
+
+
+    /* tablets or medium */
+    @media screen and (min-width:577px) and (max-width:1024px) {
+
+        .nav-container,
+        .menus {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .banner-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .logo {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .banner-img img {
+            width: 400px;
+            height: 400px;
+        }
+
+        .banner-container {
+            margin-top: 150px;
+            padding-left: 50px;
+        }
+
+        .banner-content {
+            margin-top: 25px;
+        }
+
+        header {
+            margin: 30px;
+        }
+    }

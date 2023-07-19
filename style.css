@@ -495,9 +495,10 @@ img {
 .container {
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 300px;
     width: 100%;
     background-color: #031627;
+    margin-top: 50px;
 }
 
 .footer-title {
@@ -532,11 +533,46 @@ img {
 .footer-sub-title {
     width: 600px;
     height: auto;
-    margin: 50px 200px;
+    margin: 50px 400px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
 
+.footer-sub-title p {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-policy {
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+    gap: 25px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 20px;
+    gap: 25px;
 }
 
 /* responsive section  */

@@ -94,6 +94,7 @@ img {
 
 
 /* banner section  */
+
 .banner-container {
     display: flex;
     justify-content: space-around;
@@ -169,6 +170,7 @@ img {
 }
 
 /* gamer section */
+
 .gamer {
     width: 100%px;
     height: 400px;
@@ -282,8 +284,9 @@ img {
 .online-games-img {
     display: flex;
     justify-content: space-evenly;
-    margin: 0px 50px;
+    margin: 25px 70px 200px;
     margin-top: 25px;
+    margin-left: 100px;
 }
 
 .online-games-img p {
